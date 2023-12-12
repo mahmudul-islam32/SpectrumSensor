@@ -9,7 +9,9 @@ const SpectrumStatus = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("/api/SpectrumStatus");
+      const response = await axios.get(
+        "https://webfrontendassignment-isaraerospace.azurewebsites.net"
+      );
       setSensorData(response.data);
     } catch (error) {
       console.error("Error fetching sensor data:", error);
