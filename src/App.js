@@ -1,9 +1,9 @@
 import React from "react";
-import SpectrumStatus from "./SpectrumStatus";
-import SpectrumLiveStatus from "./SpectrumLiveStatus";
+import SpectrumStatus from "./components/SpectrumStatus";
+import SpectrumLiveStatus from "./components/SpectrumLiveStatus";
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import PageNotFound from "./PageNotFound";
+import PageNotFound from "./components/PageNotFound";
 
 const App = () => {
   return (
